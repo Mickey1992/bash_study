@@ -1,5 +1,6 @@
 ### Sha-Bang(#!) + pathName
 The program saved in the path  will interpret the commands in the script
+
 ```bash
 #!/bin/sh
 #!/bin/bash
@@ -11,6 +12,7 @@ The program saved in the path  will interpret the commands in the script
 
 
 ### to make a script executable by itself
+
 ```bash
 chmod 555 scriptname
 chmod +rx scriptname
@@ -26,3 +28,17 @@ But a space is needed between the semicolon and the other command
 ### double quote and single quote
 "STRING" preserves (from interpretation) most of the special characters within STRING.
 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING"
+
+
+### test
+Arithmetic evaluation of octal / hexadecimal constants takes place automatically within a [[ ... ]] construct.
+
+
+### String
+
+String length
+```bash
+echo ${#varString}
+echo `expr length $varString`
+echo `expr "$varString":'.*'`
+```
