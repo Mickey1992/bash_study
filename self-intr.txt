@@ -1,0 +1,23 @@
+My name is Claire
+I graduated from East China Normal University in 2014.
+My major is software engineering.
+
+I have been working in BASE for three years.
+I worked in three projects in total.
+
+My first project is the Incident Management System.
+It is used by a telecon company interal.
+The system, as its name suggests, is used to manage incidents,for example, it happens an earthquake an lead to the service they provide can not be used. Their employee may raise a ticket. To solve this issue. The cooperation of serval departments may be needed. So the ticket may be handed over from one employee to another, or one department to another department. In addition, there are also functions like search, analysis and notification.
+It is a web system.
+The backend language is Java, and the framework is Struts2, Spring and Mybatis.
+The frontend framework is jQuery
+I worked as a developer in this project, doing both back-end and front-end development.
+
+My second project is to maintain another for the telecom company above. The system is used to get the information of modems,
+which are set in their customers' home.
+My job is to write scripts to extract information according to customers' request, analyze logs, manage cron jobs, write sql to get or update the data.
+In order to make the work more efficent and to reduce human mistake, I also worte some other scripts and excel maceos to do things automatically for me. One of them is used by other departments because of its convenience.
+
+The third project is to migrate data from old system to new system. The project is very large. During the migration test, some errors may happen. To find the cause, I analyze the logs, read the documents and source code. I wrote some tools to automate some of the work. And also to make my analysis efficently, I learned to write the migration by myself
+
+That's all. Thank you. 

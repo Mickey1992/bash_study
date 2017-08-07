@@ -116,3 +116,65 @@ ${!varprefix@}
 #Matches names of all previously declared variables beginning with varprefix.
 ```
 
+
+### loops
+for loops
+```bash
+for args in [list]
+do
+	command($args) 
+done
+
+#if do is on the same line as for
+for args in [lists];do
+```
+
+while
+```bash
+while [ condition ]
+do 
+ command(s)... 
+done
+
+until
+```bash
+until [ condition-is-true ]
+do 
+ command(s)... 
+done
+```
+```
+
+### controlling program flow in a code block
+
+case(in)/esac
+```bash
+case "$variable" in 
+
+ "$condition1" ) 
+ command... 
+ ;; 
+
+ "$condition2" ) 
+ command... 
+ ;; 
+
+ * )
+ default...
+ ;;
+ esac
+
+ #If a condition tests true, then the associated commands execute and the case block terminates.(Unlike C++,if you don't put a break after every condition, the commands after this condition may also be checked and executed)
+
+
+ ```
+
+ select
+ ```bash
+ select variable [in list]
+do 
+ command... 
+ break 
+done
+```
+
